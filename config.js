@@ -62,6 +62,7 @@ System.config({
     "jquery": "npm:jquery@2.2.0",
     "lodash": "npm:lodash@4.2.1",
     "ng2-bootstrap": "npm:ng2-bootstrap@1.0.2-beta.2",
+    "ng2-bs3-modal": "github:born2net/ng2-bs3-modal@0.1.0",
     "ng2-bs3-modal/dist/ng2-bs3-modal": "github:born2net/ng2-bs3-modal@0.1.0",
     "plugin-typescript": "github:frankwallis/plugin-typescript@2.5.6",
     "redux": "npm:redux@3.2.1",
