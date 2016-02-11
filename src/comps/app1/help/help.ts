@@ -1,10 +1,10 @@
-import {Component} from "angular2/core";
-import {Contributors} from "./contributors/contributors";
-import {Alert, Rating} from 'ng2-bootstrap/ng2-bootstrap';
-import {CommBroker} from "../../../services/CommBroker";
-import {Consts} from "../../../Conts";
-import {Tabs} from "../../tabs/tabs";
-import {Tab} from "../../tabs/tab";
+import  {Component} from "angular2/core";
+import  {Contributors} from "./contributors/contributors";
+import  {Alert, Rating} from 'ng2-bootstrap/ng2-bootstrap';
+import  {CommBroker} from "../../../services/commbroker";
+import  {Consts} from "../../../conts";
+import  {Tabs} from "../../tabs/tabs";
+import  {Tab} from "../../tabs/tab";
 
 @Component({
     selector: 'Help',

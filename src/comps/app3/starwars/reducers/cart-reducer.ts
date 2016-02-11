@@ -1,5 +1,5 @@
-import * as CartActions from '../actions/cart-actions';
-import {ICart} from "../components/shopping-component";
+import  * as CartActions from '../actions/cart-actions';
+import  {ICart} from "../components/shopping-component";
 
 export default (state:ICart[] = [], action:any = {}) => {
     switch (action.type) {

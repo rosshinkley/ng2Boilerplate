@@ -1,10 +1,10 @@
 ///<reference path="../../typings/app.d.ts"/>
 
-import {Injectable} from "angular2/core";
-import {LocalStorage} from "../services/LocalStorage";
-import {StyleModel} from "../models/StyleModel";
-import {CommBroker} from "../services/CommBroker";
-import {Consts} from "../Conts";
+import  {Injectable} from "angular2/core";
+import  {LocalStorage} from "../services/localstorage";
+import  {StyleModel} from "../models/stylemodel";
+import  {CommBroker} from "../services/commbroker";
+import  {Consts} from "../conts";
 
 @Injectable()
 export class StyleService {
@@ -54,8 +54,8 @@ export class StyleService {
         //System.has(`${window.location.origin}/src/styles/material-design/js/material.min.js`)
         //this.loadCss('src/styles/material-design/css/bootstrap-material-design.css');
         //this.loadCss('src/styles/material-design/css/ripples.min.css');
-        //var a:Promise<any> = System.import('src/styles/material-design/js/material.min.js');
-        //var b:Promise<any> = System.import('src/styles/material-design/js/ripples.min.js');
+        //var a:Promise<any> = System.import ('src/styles/material-design/js/material.min.js');
+        //var b:Promise<any> = System.import ('src/styles/material-design/js/ripples.min.js');
         //Promise.all([a, b]).then(function (e) {
         //    jQuery.material.init();
         //})

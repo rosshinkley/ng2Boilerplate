@@ -1,10 +1,10 @@
-import {Injectable} from 'angular2/core';
-import {Http, RequestOptions, URLSearchParams} from 'angular2/http';
-import {Observable} from 'rxjs/Observable';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/observable/empty'
-import 'rxjs/add/observable/empty'
-import {IWeatherItem} from "./IWeather";
+import  {Injectable} from 'angular2/core';
+import  {Http, RequestOptions, URLSearchParams} from 'angular2/http';
+import  {Observable} from 'rxjs/observable';
+import  'rxjs/add/operator/do';
+import  'rxjs/add/observable/empty'
+import  'rxjs/add/observable/empty'
+import  {IWeatherItem} from "./iweather";
 
 @Injectable()
 export class WeatherService {

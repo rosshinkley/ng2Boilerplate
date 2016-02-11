@@ -1,5 +1,5 @@
-import {Component, Host} from 'angular2/core';
-import {Tabs} from '../tabs/tabs';
+import  {Component, Host} from 'angular2/core';
+import  {Tabs} from '../tabs/tabs';
 
 @Component({
     selector: 'tab',

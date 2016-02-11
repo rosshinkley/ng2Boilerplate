@@ -1,5 +1,5 @@
-import {Map} from 'immutable';
-import * as AppdbAction from "../actions/AppdbAction";
+import  {Map} from 'immutable';
+import  * as AppdbAction from "../actions/appdbaction";
 
 /** global application reduced actions defined here **/
 

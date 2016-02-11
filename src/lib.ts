@@ -1,11 +1,11 @@
 /** Common Library **/
 
-import {Injectable} from 'angular2/core';
-import {createStore, combineReducers, applyMiddleware, compose} from "redux";
-import * as thunkMiddleware from 'redux-thunk';
-import {AppStore} from "angular2-redux-util";
+import  {Injectable} from 'angular2/core';
+import  {createStore, combineReducers, applyMiddleware, compose} from "redux";
+import  * as thunkMiddleware from 'redux-thunk';
+import  {AppStore} from "angular2-redux-util";
 
-import {LoggerMiddleware} from "angular2-redux-util";
+import  {LoggerMiddleware} from "angular2-redux-util";
 
 @Injectable()
 export class Lib {
@@ -28,14 +28,14 @@ export class Lib {
 
         return System.import(path).then(c => c[name]);
 
-        //return System.import('/dist/public/out.js')
+        //return System.import ('/dist/public/out.js')
         //    .catch(function (e) {
         //        alert('prob loading out.js ' + e);
         //    }).then(function (e) {
         //        alert(e);
         //        alert(e[name]);
         //        alert(JSON.stringify(e));
-        //        return System.import('App1').then(c => c[name]);
+        //        return System.import ('app1').then(c => c[name]);
         //    });
     }
 

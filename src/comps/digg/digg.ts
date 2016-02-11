@@ -10,18 +10,18 @@
  Licence: MIT
  *******************************************/
 
-import {Component, ViewContainerRef, ViewEncapsulation} from 'angular2/core';
-import {BrowserDomAdapter} from 'angular2/platform/browser';
-import {Consts} from "../../../src/Conts";
-import {Observable} from "rxjs/Observable";
-import {DiggLoader} from "../../../src/comps/digg/DiggLoader";
-import {Observer} from "rxjs/Observer";
-import {IDigg} from "./DiggLoader";
-import {CommBroker, IMessage} from "../../services/CommBroker";
-import 'rxjs/add/observable/from';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/operator/distinctUntilChanged';
+import  {Component, ViewContainerRef, ViewEncapsulation} from 'angular2/core';
+import  {BrowserDomAdapter} from 'angular2/platform/browser';
+import  {Consts} from "../../../src/conts";
+import  {Observable} from "rxjs/observable";
+import  {DiggLoader} from "../../../src/comps/digg/diggloader";
+import  {Observer} from "rxjs/observer";
+import  {IDigg} from "./diggloader";
+import  {CommBroker, IMessage} from "../../services/commbroker";
+import  'rxjs/add/observable/from';
+import  'rxjs/add/operator/do';
+import  'rxjs/add/operator/debouncetime';
+import  'rxjs/add/operator/distinctuntilchanged';
 
 
 

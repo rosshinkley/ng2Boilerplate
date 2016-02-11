@@ -1,10 +1,10 @@
-import {Component} from 'angular2/core';
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
-import {ModalDialog} from "../../modaldialog/ModalDialog";
-import {CommBroker} from "../../../services/CommBroker";
-import {NotesBase} from "./NotesBase";
-import {MyIp} from "../../myip/Myip";
-import {MODAL_DIRECTIVES} from 'ng2-bs3-modal/dist/ng2-bs3-modal'
+import  {Component} from 'angular2/core';
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
+import  {ModalDialog} from "../../modaldialog/modaldialog";
+import  {CommBroker} from "../../../services/commbroker";
+import  {NotesBase} from "./notesbase";
+import  {MyIp} from "../../myip/myip";
+import  {MODAL_DIRECTIVES} from 'ng2-bs3-modal/dist/ng2-bs3-modal'
 
 @Component({
     selector: 'Notes2',

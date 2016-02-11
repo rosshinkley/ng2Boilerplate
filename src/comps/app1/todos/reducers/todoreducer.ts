@@ -1,6 +1,6 @@
-import {List} from 'immutable';
-import * as TodoAction from "../actions/TodoAction";
-import {TodoModel} from "../TodoModel";
+import  {List} from 'immutable';
+import  * as TodoAction from "../actions/todoaction";
+import  {TodoModel} from "../todomodel";
 
 export interface ITodoAction {
     type: string;

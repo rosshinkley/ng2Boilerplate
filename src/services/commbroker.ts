@@ -1,10 +1,10 @@
-import {Component, Injectable} from 'angular2/core';
-import {Observer} from "rxjs/Observer";
-import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/share';
-import {Subject} from "rxjs/Subject";
+import  {Component, Injectable} from 'angular2/core';
+import  {Observer} from "rxjs/observer";
+import  'rxjs/add/operator/debouncetime';
+import  'rxjs/add/operator/do';
+import  'rxjs/add/operator/filter';
+import  'rxjs/add/operator/share';
+import  {Subject} from "rxjs/subject";
 
 /**
 

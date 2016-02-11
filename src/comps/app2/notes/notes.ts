@@ -1,4 +1,4 @@
-import {Component, ViewContainerRef} from "angular2/core";
+import  {Component, ViewContainerRef} from "angular2/core";
 
 @Component({
     selector: 'Notes',

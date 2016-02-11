@@ -1,18 +1,18 @@
 ///<reference path="../../../typings/app.d.ts"/>
 
-import {Component, EventEmitter} from 'angular2/core';
-import {ROUTER_DIRECTIVES} from 'angular2/router';
-import {RouterLink} from 'angular2/router';
-import 'rxjs/add/observable/from';
-import 'rxjs/add/observable/fromEvent';
-import 'rxjs/add/operator/buffer';
-import 'rxjs/add/operator/bufferCount';
-import 'rxjs/add/operator/delay';
-import 'rxjs/add/operator/throttleTime';
-import 'rxjs/add/operator/distinctUntilChanged';
-import 'rxjs/add/operator/do';
-import {Observable} from "rxjs/Observable";
-import {Lib} from "../../Lib";
+import  {Component, EventEmitter} from 'angular2/core';
+import  {ROUTER_DIRECTIVES} from 'angular2/router';
+import  {RouterLink} from 'angular2/router';
+import  'rxjs/add/observable/from';
+import  'rxjs/add/observable/fromevent';
+import  'rxjs/add/operator/buffer';
+import  'rxjs/add/operator/buffercount';
+import  'rxjs/add/operator/delay';
+import  'rxjs/add/operator/throttletime';
+import  'rxjs/add/operator/distinctuntilchanged';
+import  'rxjs/add/operator/do';
+import  {Observable} from "rxjs/observable";
+import  {Lib} from "../../lib";
 
 @Component({
     providers: [ForgotPass],

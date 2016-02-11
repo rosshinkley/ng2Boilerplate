@@ -1,10 +1,10 @@
-import {Injectable} from 'angular2/core';
-import {Http} from 'angular2/http';
-import {Lib} from "../../../Lib";
-import {Observable} from "rxjs/Observable";
-import {Observer} from "rxjs/Observer";
-import 'rxjs/add/operator/share';
-import TodoStatsModel from "./TodoStatsModel";
+import  {Injectable} from 'angular2/core';
+import  {Http} from 'angular2/http';
+import  {Lib} from "../../../lib";
+import  {Observable} from "rxjs/observable";
+import  {Observer} from "rxjs/observer";
+import  'rxjs/add/operator/share';
+import  TodoStatsModel from "./todostatsmodel";
 
 const url:string = 'http://secure.digitalsignage.com';
 

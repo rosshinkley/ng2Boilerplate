@@ -1,7 +1,7 @@
-import {Http} from "angular2/http";
-import {Injectable} from "angular2/core";
-import {Actions} from "angular2-redux-util";
-import 'rxjs/add/operator/map';
+import  {Http} from "angular2/http";
+import  {Injectable} from "angular2/core";
+import  {Actions} from "angular2-redux-util";
+import  'rxjs/add/operator/map';
 
 export const REQUEST_USERS = 'REQUEST_USERS';
 export const RECEIVE_USERS = 'RECEIVE_USERS';

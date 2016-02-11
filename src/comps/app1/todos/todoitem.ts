@@ -1,6 +1,6 @@
-import {Component, Input, Output, EventEmitter, ChangeDetectionStrategy} from 'angular2/core';
-import {TodoItemModel} from './TodoService';
-//import './Todoitem.css';
+import  {Component, Input, Output, EventEmitter, ChangeDetectionStrategy} from 'angular2/core';
+import  {TodoItemModel} from './todoservice';
+//import  './todoitem.css';
 
 @Component({
     selector: 'todo-item',

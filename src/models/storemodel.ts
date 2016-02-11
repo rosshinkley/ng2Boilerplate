@@ -1,5 +1,5 @@
-import {Map} from 'immutable';
-import { UUID } from 'angular2-uuid';
+import  {Map} from 'immutable';
+import  { UUID } from 'angular2-uuid';
 
 
 /**

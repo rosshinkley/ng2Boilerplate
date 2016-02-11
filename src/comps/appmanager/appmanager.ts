@@ -1,7 +1,7 @@
-import {Component} from 'angular2/core';
-import {ROUTER_DIRECTIVES} from 'angular2/router';
-import {RouterLink, Router} from 'angular2/router';
-import {Lib} from "../../Lib";
+import  {Component} from 'angular2/core';
+import  {ROUTER_DIRECTIVES} from 'angular2/router';
+import  {RouterLink, Router} from 'angular2/router';
+import  {Lib} from "../../lib";
 
 @Component({
     providers: [AppManager],

@@ -1,8 +1,8 @@
-import {Component} from "angular2/core";
-import {Consts} from "../../../../src/Conts";
-import {FORM_DIRECTIVES} from 'angular2/common'
-import {MailModel} from "../../../models/MailModel";
-import {CommBroker} from "../../../services/CommBroker";
+import  {Component} from "angular2/core";
+import  {Consts} from "../../../../src/conts";
+import  {FORM_DIRECTIVES} from 'angular2/common'
+import  {MailModel} from "../../../models/mailmodel";
+import  {CommBroker} from "../../../services/commbroker";
 
 @Component({
     selector: 'Contact',

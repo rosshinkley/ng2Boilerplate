@@ -1,5 +1,5 @@
-import {Component} from 'angular2/core';
-import {Filemenu} from "./Filemenu";
+import  {Component} from 'angular2/core';
+import  {Filemenu} from "./filemenu";
 
 /**
  Filemenu manages the top header file menu per application as it mutates it's content depending

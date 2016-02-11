@@ -1,10 +1,10 @@
 ///<reference path="../../../typings/app.d.ts"/>
 
-import {Component, Injectable} from "angular2/core";
-import {MenuItem} from "./MenuItem";
-import {CommBroker} from "../../services/CommBroker";
-import {Consts} from "../../Conts";
-import {IMessage} from "../../services/CommBroker";
+import  {Component, Injectable} from "angular2/core";
+import  {MenuItem} from "./menuitem";
+import  {CommBroker} from "../../services/commbroker";
+import  {Consts} from "../../conts";
+import  {IMessage} from "../../services/commbroker";
 
 @Component({
     selector: 'Menu',

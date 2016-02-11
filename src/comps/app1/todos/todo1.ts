@@ -1,5 +1,5 @@
-import {Component} from "angular2/core";
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
+import  {Component} from "angular2/core";
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
 
 @Component({
     selector: 'Todo1',

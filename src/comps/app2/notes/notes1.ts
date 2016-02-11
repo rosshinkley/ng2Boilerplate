@@ -1,16 +1,16 @@
 ///<reference path="../../../../typings/app.d.ts"/>
 
-import {Component} from 'angular2/core';
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
-import {ModalDialog} from "../../modaldialog/ModalDialog";
-import {CommBroker} from "../../../services/CommBroker";
-import {Consts} from "../../../../src/Conts";
-import {NotesBase} from "./NotesBase";
-import {MailModel} from "../../../models/MailModel";
-import {CharCount} from "../../../pipes/CharCount";
-import {FORM_DIRECTIVES, FormBuilder, ControlGroup, Validators, AbstractControl} from 'angular2/common'
-import StartCapValidator from "../../../validators/StartCapValidator";
-import NameTakenValidator from "../../../validators/NameTakenValidator";
+import  {Component} from 'angular2/core';
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
+import  {ModalDialog} from "../../modaldialog/modaldialog";
+import  {CommBroker} from "../../../services/commbroker";
+import  {Consts} from "../../../../src/conts";
+import  {NotesBase} from "./notesbase";
+import  {MailModel} from "../../../models/mailmodel";
+import  {CharCount} from "../../../pipes/charcount";
+import  {FORM_DIRECTIVES, FormBuilder, ControlGroup, Validators, AbstractControl} from 'angular2/common'
+import  StartCapValidator from "../../../validators/startcapvalidator";
+import  NameTakenValidator from "../../../validators/nametakenvalidator";
 
 @Component({
     selector: 'Notes1',

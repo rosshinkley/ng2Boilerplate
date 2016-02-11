@@ -1,6 +1,6 @@
-import {Component} from "angular2/core";
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
-import TodoStatsModel from "./TodoStatsModel";
+import  {Component} from "angular2/core";
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
+import  TodoStatsModel from "./todostatsmodel";
 
 @Component({
     selector: 'Todo2',

@@ -1,8 +1,8 @@
-import {Component} from "angular2/core";
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
-import {Todo1} from "./Todo1";
-import {Todo2} from "./Todo2";
-import {TodoList} from "./Todolist";
+import  {Component} from "angular2/core";
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
+import  {Todo1} from "./todo1";
+import  {Todo2} from "./todo2";
+import  {TodoList} from "./todolist";
 
 @Component({
     selector: 'Todos',

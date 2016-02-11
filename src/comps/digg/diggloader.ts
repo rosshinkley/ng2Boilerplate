@@ -1,10 +1,10 @@
-import {Component, Injectable} from "angular2/core";
-import {Http} from "angular2/http";
-import 'rxjs/add/operator/map';
-import 'rxjs/add/observable/fromArray';
-import 'rxjs/add/operator/mergeMap';
-import 'rxjs/add/operator/retry';
-import {Observable} from "rxjs/Observable";
+import  {Component, Injectable} from "angular2/core";
+import  {Http} from "angular2/http";
+import  'rxjs/add/operator/map';
+import  'rxjs/add/observable/fromarray';
+import  'rxjs/add/operator/mergemap';
+import  'rxjs/add/operator/retry';
+import  {Observable} from "rxjs/observable";
 
 export interface IDigg {
     title:string;

@@ -1,11 +1,11 @@
-import {Component, Inject} from 'angular2/core'
-import {CartActions} from "../actions/cart-actions";
-import {PartActions} from "../actions/part-actions";
-import {PartsView} from "../components/parts-view";
-import {CartView} from "../components/cart-view";
-import {AddPartsView} from "./add-part-view";
-import {createSelector} from 'reselect';
-import {AppStore} from "angular2-redux-util";
+import  {Component, Inject} from 'angular2/core'
+import  {CartActions} from "../actions/cart-actions";
+import  {PartActions} from "../actions/part-actions";
+import  {PartsView} from "../components/parts-view";
+import  {CartView} from "../components/cart-view";
+import  {AddPartsView} from "./add-part-view";
+import  {createSelector} from 'reselect';
+import  {AppStore} from "angular2-redux-util";
 
 // select the parts in cart
 const partsInCartSelector = createSelector((state:any)=>state.cart, state=>state.parts, (cart, parts) => {

@@ -1,9 +1,9 @@
-import {Component} from 'angular2/core';
-import {TodosService, IDataStore, TodoItemModel} from "./TodoService";
-import {TodoItem} from "./Todoitem";
-import {Observable} from "rxjs/Observable";
-import {TodoAction} from "./actions/TodoAction";
-import {AppStore} from "angular2-redux-util/dist/index";
+import  {Component} from 'angular2/core';
+import  {TodosService, IDataStore, TodoItemModel} from "./todoservice";
+import  {TodoItem} from "./todoitem";
+import  {Observable} from "rxjs/observable";
+import  {TodoAction} from "./actions/todoaction";
+import  {AppStore} from "angular2-redux-util/dist/index";
 
 type channelTodoObservable = Observable<TodoItem>;
 type channelTodosObservable = Observable<Array<channelTodoObservable>>;

@@ -1,31 +1,31 @@
-import {Component} from 'angular2/core';
+import  {Component} from 'angular2/core';
 import {
     ROUTER_DIRECTIVES, RouteConfig, Router, OnActivate, ComponentInstruction, CanReuse,
     OnReuse, CanActivate, OnDeactivate
 } from 'angular2/router';
-import {HTTP_PROVIDERS} from "angular2/http";
-import {RouterLink, RouteParams} from 'angular2/router';
-import {Menu} from "../sidemenu/Menu";
-import {MenuItem} from "../sidemenu/MenuItem";
-import {CommBroker} from "../../services/CommBroker";
-import {Consts} from "../../../src/Conts";
-import {IMessage} from "../../services/CommBroker";
-import {Sliderpanel} from "../sliderpanel/Sliderpanel";
-import {Digg} from "../digg/Digg";
-import {Tabs} from "../tabs/tabs";
-import {Tab} from "../tabs/tab";
-import {Logout} from "../logout/Logout";
-import {Settings} from "./settings/Settings";
-import {Help} from "./help/Help";
-import {Todo1} from "./todos/Todo1";
-import {Todo2} from "./todos/Todo2";
-import {TodoList} from "./todos/Todolist";
-import {TodoItem} from "./todos/Todoitem";
-import TodoStatsModel from "./todos/TodoStatsModel";
-import {Contributors} from "./help/contributors/contributors";
-import {TodosService} from "./todos/TodoService";
-import {TodoAction} from "./todos/actions/TodoAction";
-import {Todos} from "./todos/Todos";
+import  {HTTP_PROVIDERS} from "angular2/http";
+import  {RouterLink, RouteParams} from 'angular2/router';
+import  {Menu} from "../sidemenu/menu";
+import  {MenuItem} from "../sidemenu/menuitem";
+import  {CommBroker} from "../../services/commbroker";
+import  {Consts} from "../../../src/conts";
+import  {IMessage} from "../../services/commbroker";
+import  {Sliderpanel} from "../sliderpanel/sliderpanel";
+import  {Digg} from "../digg/digg";
+import  {Tabs} from "../tabs/tabs";
+import  {Tab} from "../tabs/tab";
+import  {Logout} from "../logout/logout";
+import  {Settings} from "./settings/settings";
+import  {Help} from "./help/help";
+import  {Todo1} from "./todos/todo1";
+import  {Todo2} from "./todos/todo2";
+import  {TodoList} from "./todos/todolist";
+import  {TodoItem} from "./todos/todoitem";
+import  TodoStatsModel from "./todos/todostatsmodel";
+import  {Contributors} from "./help/contributors/contributors";
+import  {TodosService} from "./todos/todoservice";
+import  {TodoAction} from "./todos/actions/todoaction";
+import  {Todos} from "./todos/todos";
 
 @RouteConfig([
     {path: '/Todos', component: Todos, as: 'Todos', useAsDefault: true},

@@ -1,4 +1,4 @@
-import * as PartActions from '../actions/part-actions';
+import  * as PartActions from '../actions/part-actions';
 
 export default (state:any = {}, action:any = {}) => {
     switch (action.type) {

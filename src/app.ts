@@ -1,41 +1,41 @@
 ///<reference path="../typings/app.d.ts"/>
 
-//import {enableProdMode} from 'angular2/core';
-import "reflect-metadata";
-import 'twbs/bootstrap/css/bootstrap.css!';
-import './styles/style.css!';
-import {bootstrap} from 'angular2/platform/browser';
-import {HTTP_PROVIDERS, JSONP_PROVIDERS} from "angular2/http";
-import {App1} from '../src/comps/app1/App1';
-import {App2} from '../src/comps/app2/App2';
-import {App3} from '../src/comps/app3/App3';
-import {Component, provide, ViewEncapsulation} from 'angular2/core';
-import {EntryPanel} from '../src/comps/entry/EntryPanel';
-import {AppManager} from '../src/comps/appmanager/AppManager';
-import {CommBroker} from '../src/services/CommBroker';
-import {Filemenu} from "../src/comps/filemenu/Filemenu";
-import {FilemenuItem} from "../src/comps/filemenu/FilemenuItem";
-import {Logo} from "./comps/logo/Logo";
-import {Footer} from "./comps/footer/Footer";
-import {Consts} from "../src/Conts";
-import {StyleService} from "./styles/StyleService";
-import {ROUTER_DIRECTIVES, ROUTER_PROVIDERS, AsyncRoute} from 'angular2/router';
-import {LocationStrategy, RouteParams, RouterLink, HashLocationStrategy, RouteConfig} from 'angular2/router';
-import {AppStore} from "angular2-redux-util";
-import {Lib} from "./Lib";
-import {Observable} from "rxjs/Observable";
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/observable/fromEvent';
-import parts from "./comps/app3/starwars/reducers/parts-reducer"
-import cart from "./comps/app3/starwars/reducers/cart-reducer"
-import films from "./comps/app3/starwars/reducers/films-reducer"
-import users from "./comps/app3/starwars/reducers/users-reducer"
-import notify from "./reducers/NotifyReducer"
-import appdb from "./reducers/AppdbReducer"
-import {todos} from "./comps/app1/todos/reducers/TodoReducer"
-import {AppdbAction} from "./actions/AppdbAction";
-import {Welcome} from "./comps/welcome/Welcome";
+//import   {enableProdMode} from 'angular2/core';
+import   "reflect-metadata";
+import   'twbs/bootstrap/css/bootstrap.css!';
+import   './styles/style.css!';
+import   {bootstrap} from 'angular2/platform/browser';
+import   {HTTP_PROVIDERS, JSONP_PROVIDERS} from "angular2/http";
+import   {App1} from '../src/comps/app1/app1';
+import   {App2} from '../src/comps/app2/app2';
+import   {App3} from '../src/comps/app3/app3';
+import   {Component, provide, ViewEncapsulation} from 'angular2/core';
+import   {EntryPanel} from '../src/comps/entry/entrypanel';
+import   {AppManager} from '../src/comps/appmanager/appmanager';
+import   {CommBroker} from '../src/services/commbroker';
+import   {Filemenu} from "../src/comps/filemenu/filemenu";
+import   {FilemenuItem} from "../src/comps/filemenu/filemenuitem";
+import   {Logo} from "./comps/logo/logo";
+import   {Footer} from "./comps/footer/footer";
+import   {Consts} from "../src/conts";
+import   {StyleService} from "./styles/styleservice";
+import   {ROUTER_DIRECTIVES, ROUTER_PROVIDERS, AsyncRoute} from 'angular2/router';
+import   {LocationStrategy, RouteParams, RouterLink, HashLocationStrategy, RouteConfig} from 'angular2/router';
+import   {AppStore} from "angular2-redux-util";
+import   {Lib} from "./lib";
+import   {Observable} from "rxjs/observable";
+import   'rxjs/add/operator/map';
+import   'rxjs/add/operator/debouncetime';
+import   'rxjs/add/observable/fromevent';
+import   parts from "./comps/app3/starwars/reducers/parts-reducer"
+import   cart from "./comps/app3/starwars/reducers/cart-reducer"
+import   films from "./comps/app3/starwars/reducers/films-reducer"
+import   users from "./comps/app3/starwars/reducers/users-reducer"
+import   notify from "./reducers/notifyreducer"
+import   appdb from "./reducers/appdbreducer"
+import   {todos} from "./comps/app1/todos/reducers/todoreducer"
+import   {AppdbAction} from "./actions/appdbaction";
+import   {Welcome} from "./comps/welcome/welcome";
 
 /**
  Main application bootstrap

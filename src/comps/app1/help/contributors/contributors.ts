@@ -1,5 +1,5 @@
-import {Component} from 'angular2/core';
-import {MyChart} from "./MyChart";
+import  {Component} from 'angular2/core';
+import  {MyChart} from "./mychart";
 
 @Component({
     selector: 'Contributors',

@@ -1,4 +1,4 @@
-import {Component, Input, Output, ChangeDetectionStrategy, EventEmitter} from 'angular2/core'
+import  {Component, Input, Output, ChangeDetectionStrategy, EventEmitter} from 'angular2/core'
 
 @Component({
     selector: 'film',

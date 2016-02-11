@@ -1,8 +1,8 @@
 ///<reference path="../../../../../typings/app.d.ts"/>
 
-import {Component, Input, Output, EventEmitter, ChangeDetectionStrategy, OnChanges, SimpleChange} from 'angular2/core'
+import  {Component, Input, Output, EventEmitter, ChangeDetectionStrategy, OnChanges, SimpleChange} from 'angular2/core'
 
-import {createSelector} from 'reselect';
+import  {createSelector} from 'reselect';
 
 const partsInCartLookupSelector = createSelector((changeRecord:any) => changeRecord.partsInCart.currentValue,
     (partsInCart:any) => {

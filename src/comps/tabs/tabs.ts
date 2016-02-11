@@ -1,5 +1,5 @@
-import {Component} from 'angular2/core';
-//import {Tab} from 'tab';
+import  {Component} from 'angular2/core';
+//import  {Tab} from 'tab';
 
 @Component({
     selector: 'tabs',

@@ -1,5 +1,5 @@
-import {Component} from "angular2/core";
-import {Menu} from "./Menu";
+import  {Component} from "angular2/core";
+import  {Menu} from "./menu";
 
 @Component({
     inputs: ['localTabTitle:tabtitle', 'localFontAwesome:fontAwesome'],

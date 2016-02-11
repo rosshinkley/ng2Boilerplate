@@ -1,8 +1,8 @@
-import {Component} from 'angular2/core'
-import {FilmActions} from "../actions/film-actions";
-import {FilmSelectionView} from "../components/film-selection-view";
-import {FilmView} from "../components/film-view";
-import {AppStore} from "angular2-redux-util";
+import  {Component} from 'angular2/core'
+import  {FilmActions} from "../actions/film-actions";
+import  {FilmSelectionView} from "../components/film-selection-view";
+import  {FilmView} from "../components/film-view";
+import  {AppStore} from "angular2-redux-util";
 
 @Component({
     selector: 'films-component',

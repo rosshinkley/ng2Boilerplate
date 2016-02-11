@@ -1,21 +1,21 @@
 ///<reference path="../../../../typings/app.d.ts"/>
 
-import {Component, ChangeDetectionStrategy} from "angular2/core";
-import {Consts} from "../../../../src/Conts";
-import {IWeatherItem} from "./IWeather";
-import {WeatherService} from "./WeatherService";
-import {SortableHeader} from "./SortableHeader";
-import {FORM_DIRECTIVES, FormBuilder, ControlGroup, Validators, AbstractControl, Control} from 'angular2/common'
-import {OrderBy} from "../../../pipes/OrderBy";
-import {COMMON_DIRECTIVES} from "angular2/common";
-import {Observable} from "rxjs/Observable";
-import 'rxjs/add/operator/distinctUntilChanged';
-import 'rxjs/add/operator/switchMap';
-import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/distinctUntilChanged';
-import {CommBroker} from "../../../services/CommBroker";
+import  {Component, ChangeDetectionStrategy} from "angular2/core";
+import  {Consts} from "../../../../src/conts";
+import  {IWeatherItem} from "./iweather";
+import  {WeatherService} from "./weatherservice";
+import  {SortableHeader} from "./sortableheader";
+import  {FORM_DIRECTIVES, FormBuilder, ControlGroup, Validators, AbstractControl, Control} from 'angular2/common'
+import  {OrderBy} from "../../../pipes/orderby";
+import  {COMMON_DIRECTIVES} from "angular2/common";
+import  {Observable} from "rxjs/observable";
+import  'rxjs/add/operator/distinctuntilchanged';
+import  'rxjs/add/operator/switchmap';
+import  'rxjs/add/operator/debouncetime';
+import  'rxjs/add/operator/catch';
+import  'rxjs/add/operator/do';
+import  'rxjs/add/operator/distinctuntilchanged';
+import  {CommBroker} from "../../../services/commbroker";
 
 @Component({
     selector: 'Weather',

@@ -1,10 +1,10 @@
-import {Component} from 'angular2/core';
-import {ForgotPass} from '../../../src/comps/entry/ForgotPass';
-import {LoginPanel} from '../../../src/comps/entry/LoginPanel';
-import {ROUTER_DIRECTIVES} from 'angular2/router';
-import {RouteParams, RouterLink, RouteConfig} from 'angular2/router';
-import {CommBroker} from "../../services/CommBroker";
-import {Consts} from "../../Conts";
+import  {Component} from 'angular2/core';
+import  {ForgotPass} from '../../../src/comps/entry/forgotpass';
+import  {LoginPanel} from '../../../src/comps/entry/loginpanel';
+import  {ROUTER_DIRECTIVES} from 'angular2/router';
+import  {RouteParams, RouterLink, RouteConfig} from 'angular2/router';
+import  {CommBroker} from "../../services/commbroker";
+import  {Consts} from "../../conts";
 
 
 @RouteConfig([

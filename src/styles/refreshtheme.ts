@@ -1,5 +1,5 @@
-import {CommBroker} from "../services/CommBroker";
-import {Consts} from "../Conts";
+import  {CommBroker} from "../services/commbroker";
+import  {Consts} from "../conts";
 export class RefreshTheme {
     constructor() {
         setTimeout(e=> {

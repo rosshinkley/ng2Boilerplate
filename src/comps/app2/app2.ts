@@ -1,29 +1,29 @@
 ///<reference path="../../../typings/jquery/jquery.d.ts" />
 
-import {Component} from 'angular2/core';
-import {Http} from 'angular2/http';
-import {ROUTER_DIRECTIVES} from 'angular2/router';
-import {RouterLink, RouteParams} from 'angular2/router';
-import {MenuItem} from "../sidemenu/MenuItem";
-import {Menu} from "../sidemenu/Menu";
-import {CommBroker} from "../../services/CommBroker";
-import {Consts} from "../../../src/Conts";
-import {IMessage} from "../../services/CommBroker";
-import {Sliderpanel} from "../sliderpanel/Sliderpanel";
-import {Notes} from "./notes/Notes";
-import {Notes1} from "./notes/Notes1";
-import {Notes2} from "./notes/Notes2";
-import {Notes3} from "./notes/Notes3";
-import {Notes4} from "./notes/Notes4";
-import {Notes5} from "./notes/Notes5";
-import {Digg} from "../digg/Digg";
-import {HTTP_PROVIDERS} from "angular2/http";
-import {Logout} from "../logout/Logout";
-import {Contact} from "./contact/Contact";
-import {DividerPanel} from "../dividerpanel/DividerPanel";
-import {ModalDialog} from "../modaldialog/ModalDialog";
-import {Properties} from "./properties/Properties";
-import {Weather} from "./weather/Weather";
+import  {Component} from 'angular2/core';
+import  {Http} from 'angular2/http';
+import  {ROUTER_DIRECTIVES} from 'angular2/router';
+import  {RouterLink, RouteParams} from 'angular2/router';
+import  {MenuItem} from "../sidemenu/menuitem";
+import  {Menu} from "../sidemenu/menu";
+import  {CommBroker} from "../../services/commbroker";
+import  {Consts} from "../../../src/conts";
+import  {IMessage} from "../../services/commbroker";
+import  {Sliderpanel} from "../sliderpanel/sliderpanel";
+import  {Notes} from "./notes/notes";
+import  {Notes1} from "./notes/notes1";
+import  {Notes2} from "./notes/notes2";
+import  {Notes3} from "./notes/notes3";
+import  {Notes4} from "./notes/notes4";
+import  {Notes5} from "./notes/notes5";
+import  {Digg} from "../digg/digg";
+import  {HTTP_PROVIDERS} from "angular2/http";
+import  {Logout} from "../logout/logout";
+import  {Contact} from "./contact/contact";
+import  {DividerPanel} from "../dividerpanel/dividerpanel";
+import  {ModalDialog} from "../modaldialog/modaldialog";
+import  {Properties} from "./properties/properties";
+import  {Weather} from "./weather/weather";
 
 /**
  Application 2 lazy loaded

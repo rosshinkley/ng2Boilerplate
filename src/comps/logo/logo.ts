@@ -1,12 +1,12 @@
 ///<reference path="../../../typings/app.d.ts"/>
 
-import {Component, ElementRef} from 'angular2/core';
-import {Observable} from "rxjs/Observable";
-import 'rxjs/add/observable/fromEvent';
-import 'rxjs/add/observable/fromArray';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/merge';
-import 'rxjs/add/operator/distinctUntilChanged';
+import  {Component, ElementRef} from 'angular2/core';
+import  {Observable} from "rxjs/observable";
+import  'rxjs/add/observable/fromevent';
+import  'rxjs/add/observable/fromarray';
+import  'rxjs/add/operator/do';
+import  'rxjs/add/operator/merge';
+import  'rxjs/add/operator/distinctuntilchanged';
 
 /**
  * Logo component for Application header

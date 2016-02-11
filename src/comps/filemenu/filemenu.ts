@@ -1,12 +1,12 @@
 ///<reference path="../../../typings/app.d.ts" />
 
-import {Component, ViewContainerRef} from 'angular2/core';
-import {BrowserDomAdapter} from 'angular2/platform/browser';
-import {FilemenuItem} from "./FilemenuItem";
-import {Router} from "angular2/router";
-import {CommBroker} from "../../services/CommBroker";
-import {Consts} from "../../Conts";
-import {App} from "../../../src/App";
+import  {Component, ViewContainerRef} from 'angular2/core';
+import  {BrowserDomAdapter} from 'angular2/platform/browser';
+import  {FilemenuItem} from "./filemenuitem";
+import  {Router} from "angular2/router";
+import  {CommBroker} from "../../services/commbroker";
+import  {Consts} from "../../conts";
+import  {App} from "../../../src/app";
 
 /**
  Filemenu manages the top header file menu per application as it mutates it's content depending

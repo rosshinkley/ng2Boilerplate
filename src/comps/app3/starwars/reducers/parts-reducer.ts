@@ -1,6 +1,6 @@
-import * as PartActions from '../actions/part-actions';
-import partReducer from "./part-reducer"
-import {IPart} from "../components/shopping-component";
+import  * as PartActions from '../actions/part-actions';
+import  partReducer from "./part-reducer"
+import  {IPart} from "../components/shopping-component";
 
 export default (state:IPart[] = [], action:any = {}) => {
     switch (action.type) {

@@ -1,8 +1,8 @@
-import {Injectable, Component} from "angular2/core";
-import {Actions} from "angular2-redux-util";
-import {TodoModel} from "../TodoModel";
-import {StoreModel} from "../../../../models/StoreModel";
-import {TodosService} from "../TodoService";
+import  {Injectable, Component} from "angular2/core";
+import  {Actions} from "angular2-redux-util";
+import  {TodoModel} from "../todomodel";
+import  {StoreModel} from "../../../../models/storemodel";
+import  {TodosService} from "../todoservice";
 
 export const ADD_TODO = 'ADD_TODO';
 export const REMOVE_TODO = 'REMOVE_TODO';

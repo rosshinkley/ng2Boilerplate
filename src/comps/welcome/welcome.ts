@@ -1,5 +1,5 @@
-import {ROUTER_DIRECTIVES, RouteParams, RouterLink} from "angular2/router";
-import {Component, AfterContentInit} from "angular2/core";
+import  {ROUTER_DIRECTIVES, RouteParams, RouterLink} from "angular2/router";
+import  {Component, AfterContentInit} from "angular2/core";
 /**
  General route links
  @class Welcome

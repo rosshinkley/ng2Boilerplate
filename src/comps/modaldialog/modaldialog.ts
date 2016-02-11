@@ -1,9 +1,9 @@
 ///<reference path="../../../typings/app.d.ts" />
 
-import {Component, ViewContainerRef, ViewEncapsulation} from 'angular2/core';
-import {BrowserDomAdapter} from 'angular2/platform/browser';
-import {Notes1} from "../app2/notes/Notes1";
-import {IRegisterCaller} from "../../interfaces/IRegisterCaller";
+import  {Component, ViewContainerRef, ViewEncapsulation} from 'angular2/core';
+import  {BrowserDomAdapter} from 'angular2/platform/browser';
+import  {Notes1} from "../app2/notes/notes1";
+import  {IRegisterCaller} from "../../interfaces/iregistercaller";
 
 @Component({
     selector: 'ModalDialog',

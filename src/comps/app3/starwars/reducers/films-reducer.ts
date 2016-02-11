@@ -1,4 +1,4 @@
-import * as FilmActions from '../actions/film-actions';
+import  * as FilmActions from '../actions/film-actions';
 
 export default (state = [], action:any = {}) => {
     switch (action.type) {

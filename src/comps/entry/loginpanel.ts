@@ -1,23 +1,23 @@
 ///<reference path="../../../typings/app.d.ts" />
 
-import {Component, Injectable} from 'angular2/core';
-import {ROUTER_DIRECTIVES} from 'angular2/router';
-import {RouterLink} from 'angular2/router';
-import {CommBroker} from "../../services/CommBroker";
-import {Consts} from "../../Conts";
-import {Router} from "angular2/router";
-import 'rxjs/add/observable/from';
-import 'rxjs/add/observable/fromEvent';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/bufferCount';
-import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/scan';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/observable/range';
-import {Subject} from "rxjs/Subject";
-import {BehaviorSubject} from "rxjs/subject/BehaviorSubject";
-import {Observable} from "rxjs/Observable";
-import {AppStore} from "angular2-redux-util";
+import  {Component, Injectable} from 'angular2/core';
+import  {ROUTER_DIRECTIVES} from 'angular2/router';
+import  {RouterLink} from 'angular2/router';
+import  {CommBroker} from "../../services/commbroker";
+import  {Consts} from "../../conts";
+import  {Router} from "angular2/router";
+import  'rxjs/add/observable/from';
+import  'rxjs/add/observable/fromevent';
+import  'rxjs/add/operator/map';
+import  'rxjs/add/operator/buffercount';
+import  'rxjs/add/operator/filter';
+import  'rxjs/add/operator/scan';
+import  'rxjs/add/operator/do';
+import  'rxjs/add/observable/range';
+import  {Subject} from "rxjs/subject";
+import  {BehaviorSubject} from "rxjs/subject/behaviorsubject";
+import  {Observable} from "rxjs/observable";
+import  {AppStore} from "angular2-redux-util";
 
 export class User {
     public id:string;

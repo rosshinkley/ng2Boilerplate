@@ -1,10 +1,10 @@
-import {Component} from "angular2/core";
-import {Consts} from "../../Conts";
-import {Observable} from 'rxjs/Observable';
-import 'rxjs/add/operator/do';
-import {AsyncSubject} from "rxjs/subject/AsyncSubject";
-import {Http} from 'angular2/http';
-//import {JSONP_PROVIDERS, Jsonp} from 'angular2/http';
+import  {Component} from "angular2/core";
+import  {Consts} from "../../conts";
+import  {Observable} from 'rxjs/observable';
+import  'rxjs/add/operator/do';
+import  {AsyncSubject} from "rxjs/subject/asyncsubject";
+import  {Http} from 'angular2/http';
+//import  {JSONP_PROVIDERS, Jsonp} from 'angular2/http';
 
 interface IIpAddress {
     ip: string;

@@ -1,7 +1,7 @@
 ///<reference path="../../../typings/app.d.ts" />
 
-import {Component} from "angular2/core";
-import {Consts} from "../../Conts";
+import  {Component} from "angular2/core";
+import  {Consts} from "../../conts";
 
 @Component({
     selector: 'DividerPanel',

@@ -1,7 +1,7 @@
-import {Component} from 'angular2/core';
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
-import {CommBroker} from "../../../services/CommBroker";
-import {NotesBase} from "./NotesBase";
+import  {Component} from 'angular2/core';
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
+import  {CommBroker} from "../../../services/commbroker";
+import  {NotesBase} from "./notesbase";
 
 @Component({
     selector: 'Notes4',

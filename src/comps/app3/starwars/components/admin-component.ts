@@ -1,9 +1,9 @@
-import {Component} from 'angular2/core'
-import {AppStore} from "angular2-redux-util";
-import {UserActions} from "../actions/user-actions";
-import {UsersView} from "../components/users-view";
-import {UserView} from "../components/user-view";
-import {createSelector} from 'reselect';
+import  {Component} from 'angular2/core'
+import  {AppStore} from "angular2-redux-util";
+import  {UserActions} from "../actions/user-actions";
+import  {UsersView} from "../components/users-view";
+import  {UserView} from "../components/user-view";
+import  {createSelector} from 'reselect';
 
 @Component({
     selector: 'admin',

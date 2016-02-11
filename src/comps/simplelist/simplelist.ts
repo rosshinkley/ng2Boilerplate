@@ -1,6 +1,6 @@
-import {Component, Input, Output, EventEmitter} from 'angular2/core';
-import {RouterLink} from 'angular2/router'
-import {COMMON_DIRECTIVES} from "angular2/src/common/common_directives";
+import  {Component, Input, Output, EventEmitter} from 'angular2/core';
+import  {RouterLink} from 'angular2/router'
+import  {COMMON_DIRECTIVES} from "angular2/src/common/common_directives";
 
 @Component({
     selector: 'simple-list',

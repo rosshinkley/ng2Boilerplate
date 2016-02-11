@@ -1,9 +1,9 @@
-import {Component} from 'angular2/core';
-import {Sliderpanel} from "../../sliderpanel/Sliderpanel";
-import {ModalDialog} from "../../modaldialog/ModalDialog";
-import {IRegisterCaller} from "../../../interfaces/IRegisterCaller";
-import {CommBroker} from "../../../services/CommBroker";
-import {Consts} from "../../../../src/Conts";
+import  {Component} from 'angular2/core';
+import  {Sliderpanel} from "../../sliderpanel/sliderpanel";
+import  {ModalDialog} from "../../modaldialog/modaldialog";
+import  {IRegisterCaller} from "../../../interfaces/iregistercaller";
+import  {CommBroker} from "../../../services/commbroker";
+import  {Consts} from "../../../../src/conts";
 
 export class NotesBase implements IRegisterCaller {
     protected modalDialog:ModalDialog;

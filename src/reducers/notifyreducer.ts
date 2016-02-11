@@ -1,4 +1,4 @@
-import {Map} from 'immutable';
+import  {Map} from 'immutable';
 
 /**
  * register in store each call so we can filter

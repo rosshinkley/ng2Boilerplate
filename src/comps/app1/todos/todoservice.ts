@@ -1,11 +1,11 @@
-import {Injectable} from 'angular2/core';
-import {Http} from 'angular2/http';
-import {Lib} from "../../../Lib";
-import 'rxjs/add/operator/share';
-import TodoStatsModel from "./TodoStatsModel";
-import {TodoModel} from "./TodoModel";
-import {AppStore} from "angular2-redux-util/dist/index";
-import {TodoAction} from "./actions/TodoAction";
+import  {Injectable} from 'angular2/core';
+import  {Http} from 'angular2/http';
+import  {Lib} from "../../../lib";
+import  'rxjs/add/operator/share';
+import  TodoStatsModel from "./todostatsmodel";
+import  {TodoModel} from "./todomodel";
+import  {AppStore} from "angular2-redux-util/dist/index";
+import  {TodoAction} from "./actions/todoaction";
 
 // debug server
 //const url:string = 'http://secure.digitalsignage.com:8080';
